@@ -147,42 +147,60 @@ const navLinks = [
   
   const expCards = [
     {
-      review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "/images/exp1.png",
-      logoPath: "/images/logo1.png",
-      title: "Frontend Developer",
-      date: "January 2023 - Present",
+      review:
+        "Expert in writing secure and optimized smart contracts with real-world deployment experience on projects like Willow and other dApps.",
+      imgPath: "/images/blockchain.png", // Change if you have better icons
+      logoPath: "/images/solidity.png",
+      title: "Blockchain Development",
+      date: "1+ Years Experience",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
+        "Solidity · Hardhat · Ethers.js",
+        "IPFS · Smart Contract Testing",
+        "Wallet & DApp Integration",
       ],
     },
     {
-      review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-      imgPath: "/images/exp2.png",
-      logoPath: "/images/logo2.png",
-      title: "Full Stack Developer",
-      date: "June 2020 - December 2023",
+      review:
+        "Skilled in building modern and interactive web apps with pixel-perfect UI and smooth GSAP animations.",
+      imgPath: "/images/frontend.png",
+      logoPath: "/images/logos/react.png",
+      title: "Frontend Development",
+      date: "0+ Years Experience",
       responsibilities: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
+        "React.js · TailwindCSS",
+        "GSAP Scroll Animations",
+        "Responsive Pixel-Perfect UI",
       ],
     },
     {
-      review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-      imgPath: "/images/exp3.png",
-      logoPath: "/images/logo3.png",
-      title: "React Native Developer",
-      date: "March 2019 - May 2020",
+      review:
+        "Capable of shipping production-ready mobile apps using both native and cross-platform frameworks.",
+      imgPath: "/images/mobile.png",
+      logoPath: "/images/flutter.png",
+      title: "Mobile Development",
+      date: "1+ Years Experience",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-        "Improved app performance and user experience through code optimization and testing.",
-        "Coordinated with the product team to implement features based on feedback.",
+        "Flutter",
+        "Firebase Integration",
+        "Optimized UI",
+      ],
+    },
+    {
+      review:
+        "Strong programming fundamentals with experience across scripting, backend logic, and systems programming.",
+      imgPath: "/images/programming.png",
+      logoPath: "/images/jsm-logo.png",
+      title: "Programming Languages",
+      date: "Since 2019",
+      responsibilities: [
+        "JavaScript (ES6+)",
+        "C Language",
+        "JS Basics",
+        "Git Basics"
       ],
     },
   ];
+  
   
   const expLogos = [
     {
