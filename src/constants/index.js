@@ -265,18 +265,22 @@ const navLinks = [
   const socialImgs = [
     {
       name: "insta",
+      url: "https://www.instagram.com/mr.__.meet/",
       imgPath: "/images/insta.png",
     },
     {
-      name: "fb",
-      imgPath: "/images/fb.png",
+      name: "github",
+      url: "https://github.com/Meettank3/",
+      imgPath: "/images/github-white-icon.png",
     },
     {
       name: "x",
+      url: "https://x.com/meettank33",
       imgPath: "/images/x.png",
     },
     {
       name: "linkedin",
+      url: "https://www.linkedin.com/in/meet-tank3",
       imgPath: "/images/linkedin.png",
     },
   ];
