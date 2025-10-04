@@ -8,8 +8,6 @@ const TechIcons = ({ model }) => {
     const scene = useGLTF(model.modelPath);
 
     useEffect(()=>{
-        console.log("🔍 Listing all mesh names in the model:", model.name);
-
         if(model.name === 'Interactive Developer'){
             scene.scene.traverse((child) => {
                 if(child.isMesh && child.name === 'Object_5'){

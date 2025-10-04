@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import Contact from "./sections/Contact";
 import ExperinceSection from "./sections/ExperienceSection";
 import FeaturesCard from "./sections/FeaturesCard";
 import { Hero } from "./sections/Hero";
@@ -18,6 +19,7 @@ const App = () =>{
         <ExperinceSection />
         <TechStack />
         <Testomonials />
+        <Contact  />
         </>
     )
 }
