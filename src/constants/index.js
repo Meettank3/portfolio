@@ -120,9 +120,9 @@ const navLinks = [
       rotation: [0, 0, 0],
     },
     {
-      name: "Python Developer",
-      modelPath: "/models/python-transformed.glb",
-      scale: 0.8,
+      name: "Ethereum Developer",
+      modelPath: "/models/ethereum_new_logo.glb",
+      scale: 1.75,
       rotation: [0, 0, 0],
     },
     {
