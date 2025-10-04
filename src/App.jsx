@@ -4,6 +4,7 @@ import FeaturesCard from "./sections/FeaturesCard";
 import { Hero } from "./sections/Hero";
 import LogoSection from "./sections/LogoSection";
 import ShowcaseSection from "./sections/ShowcaseSection";
+import TechStack from "./sections/TechStack";
 
 const App = () =>{
     return(
@@ -14,6 +15,7 @@ const App = () =>{
         <LogoSection />
         <FeaturesCard />
         <ExperinceSection />
+        <TechStack />
         </>
     )
 }
